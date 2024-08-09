@@ -2,7 +2,7 @@
 /* eslint-disable no-undef */
 import React, { useEffect } from 'react';
 import './Contact.css';
-import emailjs from 'emailjs-com';
+
 
 const Contact = () => {
     useEffect(() => {
