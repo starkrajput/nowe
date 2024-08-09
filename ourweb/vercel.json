@@ -1,8 +1,20 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/"
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/webapp",
+      "dest": "/"
+    },
+    {
+      "src": "/mobileapp",
+      "dest": "/"
+    },
+    {
+      "src": "/softwareapp",
+      "dest": "/"
     }
   ]
 }
