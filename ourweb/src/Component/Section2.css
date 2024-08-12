@@ -151,3 +151,8 @@
         font-size: 1.7rem;
     }
 }
+@media (max-width: 876px) {
+    .staircase-heading {
+        font-size: 1.3rem;
+    }
+}
