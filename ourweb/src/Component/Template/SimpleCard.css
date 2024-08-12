@@ -95,9 +95,8 @@ Generic layout (demo looks)
     display: grid;
     max-width: 1200px;
     margin-inline: auto;
-    
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 64px;
 }
 
 @media screen and (max-width: 960px) {
