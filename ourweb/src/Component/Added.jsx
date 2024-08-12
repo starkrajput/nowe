@@ -31,40 +31,40 @@ const Added = () => {
                     <div className="col-12 col-md-6">
                         <div className="border rounded p-3 shadow mb-3">
                             <div className="row">
-                                <div className="col-4">
-                                    <img style={{ width: '100px', height: '100px' }} src="https://cdn-icons-png.flaticon.com/512/8738/8738896.png" alt="Ideation Icon" />
+                                <div className="col-5" >
+                                    <img style={{ width: '95px', height: '95px',  }} src="https://cdn-icons-png.flaticon.com/512/8738/8738896.png" alt="Ideation Icon" />
                                 </div>
-                                <div className="col-8">
+                                <div className="col-7">
                                     <h5>Ideation</h5>
                                     <p>Our engineering teams, where everyone is a leader, help you create groundbreaking solutions.</p>
                                 </div>
                             </div>
                             <hr style={{ border: 'none', height: '1px', backgroundColor: '#87CEEB' }} />
                             <div className="row">
-                                <div className="col-4">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/1589/1589661.png" style={{ width: '100px', height: '100px' }} alt="Market Research Icon" />
+                                <div className="col-5">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1589/1589661.png" style={{ width: '95px', height: '95px' }} alt="Market Research Icon" />
                                 </div>
-                                <div className="col-8">
+                                <div className="col-7">
                                     <h5>Market Research</h5>
                                     <p>We go beyond the industry standards to find and seize opportunities. We grow when our clients grow.</p>
                                 </div>
                             </div>
                             <hr style={{ border: 'none', height: '1px', backgroundColor: '#87CEEB' }} />
                             <div className="row">
-                                <div className="col-4">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/868/868682.png" style={{ width: '100px', height: '100px' }} alt="Technology & Tools Icon" />
+                                <div className="col-5">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/868/868682.png" style={{ width: '95px', height: '95px' }} alt="Technology & Tools Icon" />
                                 </div>
-                                <div className="col-8">
+                                <div className="col-7">
                                     <h5>Technology & Tools</h5>
                                     <p>We help clients invest in the right tools that help them cut out the noise and get the job done.</p>
                                 </div>
                             </div>
                             <hr style={{ border: 'none', height: '1px', backgroundColor: '#87CEEB' }} />
                             <div className="row">
-                                <div className="col-4">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/2762/2762427.png" style={{ width: '100px', height: '100px' }} alt="Success Icon" />
+                                <div className="col-5">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2762/2762427.png" style={{ width: '95px', height: '95px' }} alt="Success Icon" />
                                 </div>
-                                <div className="col-8">
+                                <div className="col-7">
                                     <h5>Success</h5>
                                     <p>We take pride in our 21+ years of client success. We supply our clients with up-to-date and actionable results so they can focus on what really matters: growing their business.</p>
                                 </div>
@@ -89,7 +89,7 @@ const Added = () => {
                     <div className="col-12 col-md-4" style={{ paddingRight: '6px', marginBottom: '50px' }}>
                         <div className="row align-items-center" style={{ paddingBottom: '38px' }}>
                             <div className="col-4">
-                                <img src={csr} style={{ width: '70px', height: '70px', marginLeft: '40px' }} alt="CSR" />
+                                <img src={csr} style={{ width: '70px', height: '70px', marginLeft: '20px' }} alt="CSR" />
                             </div>
                             <div className="col-8">
                                 <h5>CSR</h5>
@@ -97,7 +97,7 @@ const Added = () => {
                         </div>
                         <div className="row align-items-center" style={{ paddingBottom: '38px' }}>
                             <div className="col-4">
-                                <img src={trophy} style={{ width: '70px', height: '70px', marginLeft: '40px' }} alt="Awards" />
+                                <img src={trophy} style={{ width: '70px', height: '70px', marginLeft: '20px' }} alt="Awards" />
                             </div>
                             <div className="col-8">
                                 <h5>Awards</h5>
@@ -105,7 +105,7 @@ const Added = () => {
                         </div>
                         <div className="row align-items-center" style={{ paddingBottom: '38px' }}>
                             <div className="col-4">
-                                <img src={event} style={{ width: '70px', height: '70px', marginLeft: '40px' }} alt="Events" />
+                                <img src={event} style={{ width: '70px', height: '70px', marginLeft: '20px' }} alt="Events" />
                             </div>
                             <div className="col-8">
                                 <h5>Events</h5>
@@ -113,7 +113,7 @@ const Added = () => {
                         </div>
                         <div className="row align-items-center" style={{ paddingBottom: '38px' }}>
                             <div className="col-4">
-                                <img src={balancescale} style={{ width: '70px', height: '70px', marginLeft: '40px' }} alt="Work-Life Balance" />
+                                <img src={balancescale} style={{ width: '70px', height: '70px', marginLeft: '20px' }} alt="Work-Life Balance" />
                             </div>
                             <div className="col-8">
                                 <h5>Work-Life Balance</h5>
@@ -121,7 +121,7 @@ const Added = () => {
                         </div>
                         <div className="row align-items-center">
                             <div className="col-4">
-                                <img src={reward} style={{ width: '50px', height: '50px', marginLeft: '40px' }} alt="Recognition" />
+                                <img src={reward} style={{ width: '50px', height: '50px', marginLeft: '20px' }} alt="Recognition" />
                             </div>
                             <div className="col-8">
                                 <h5>Recognition</h5>
