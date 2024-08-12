@@ -156,31 +156,51 @@
 }
 
 /* Adjustments for mobile devices */
+/* Adjustments for mobile devices */
 @media (max-width: 576px) {
     .carousel-item {
-        height: 98vh; /* Ensure minimum height of 30% of the original */
-        
-        }
+        height: 98vh; /* Ensure minimum height */
+    }
 
     .carousel-content {
-        top: 25%;
+        
         transform: translate(-50%, -50%);
-        margin-right:40px;
+        text-align: center; /* Center the text */
+        width: 80%; /* Adjust width to fit the screen */
     }
 
         .carousel-content h1 {
-            font-size: 2.5rem; /* Adjust font size for smaller screens */
+            font-size: 2rem; /* Adjust font size for smaller screens */
         }
 
         .carousel-content p {
-            font-size: 1.6rem; /* Adjust font size for smaller screens */
+            font-size: 1.3rem; /* Adjust font size for smaller screens */
         }
 
         .carousel-content button {
             padding: 8px 16px;
             font-size: 0.875rem; /* Adjust font size for smaller screens */
         }
+
+    .words-container {
+        justify-content: center;
+        flex-direction: column; /* Stack words vertically */
+        align-items: center;
+        padding: 0;
+        text-align: center; /* Center the text */
+    }
+
+    .word {
+        margin-bottom: 15px; /* Add space between words */
+        justify-content: center;
+    }
+
+    .loading-bar {
+        width: 100%; /* Ensure full width for loading bar */
+        margin: 0 auto; /* Center the loading bar */
+    }
 }
+
 
 @media (max-width: 1176px) {
     .words-container {
@@ -206,26 +226,4 @@
     }
 }
 
-    @media (max-width: 300px) {
-        .words-container {
-            justify-content: center;
-
-        }
-
-        .word {
-            display: none;
-            margin-left:60px;
-        }
-
-            .word.active {
-                display: flex;
-               
-            }
-
-        .loading-bar {
-            margin-right: 60px;
-            width: 50%;
-            height: 6px;
-            background: rgba(255, 255, 255, 0.3);
-        }
-    }
+ 
