@@ -12,7 +12,7 @@ const Testimonial = () => {
             <div className="containerS text-center mt-5 testimonial-header">
                 <h2>Testimonials</h2>
                 <p className="container testimonial-description" style={{ height: 'auto' }}>
-                    When we say we’re all about our people, we really mean it. The idea of "taking care of people" both our employees
+                    When we say we are all about our people, we really mean it. The idea of "taking care of people" both our employees
                     and our clients has been built into the way we do business.
                 </p>
             </div>
