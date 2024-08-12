@@ -109,7 +109,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="footer-text">
-                    <p>2024 © RSV Inc. All rights reserved.</p>
+                    <p>2024 @ RSV Inc. All rights reserved.</p>
                     <p>
                         <a href="/privacy">Privacy Statement</a> |
                         <a href="/terms"> Terms & Conditions</a>
