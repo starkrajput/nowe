@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 // Section2.jsx
 import React from 'react';
 import './Section2.css'; // Make sure this path is correct
@@ -12,43 +11,49 @@ import p6 from '../assets/Vedio/recommcationengine.jpg';
 const Section2 = () => {
     return (
         <div>
-        <div className="section-2" id="section-2">
-            <div className="section-2-content">
-                <h2>Next Gen AI Solution We Offer</h2>
-                <p>Our decades of expertise and experience channeled towards building the perfect AI solution.</p>
-            </div>
-            <div className="staircase">
-                <div className="staircase-level">
-                    <div className="staircase-image-container">
-                        <div className="staircase-heading">Machine Learning Services</div>
-                        <img src={p1} alt="Image 1" className="staircase-image" />
+            <div className="section-2" id="section-2">
+                <div className="section-2-content">
+                    <h2>Next Gen AI Solution We Offer</h2>
+                    <p>Our decades of expertise and experience channeled towards building the perfect AI solution.</p>
+                </div>
+                <div className="staircase">
+                    <div className="staircase-level">
+                        <div className="staircase-image-container">
+                            <div className="staircase-heading">Machine Learning Services</div>
+                            <img src={p1} alt="Image 1" className="staircase-image" />
+                            <div className="staircase-description">We provide advanced ML services to help your business grow.</div>
+                        </div>
+                    </div>
+                    <div className="staircase-level">
+                        <div className="staircase-image-container">
+                            <div className="staircase-heading">Natural Language Processing (NLP)</div>
+                            <img src={A3} alt="Image 2" className="staircase-image" />
+                            <div className="staircase-description">Unlock the power of language with our NLP solutions.</div>
+                        </div>
+                        <div className="staircase-image-container">
+                            <div className="staircase-heading">Robotic Process Automation</div>
+                            <img src={p3} alt="Image 3" className="staircase-image" />
+                            <div className="staircase-description">Automate your workflows with our cutting-edge RPA technology.</div>
+                        </div>
+                    </div>
+                    <div className="staircase-level">
+                        <div className="staircase-image-container">
+                            <div className="staircase-heading">Computational Vision</div>
+                            <img src={p4} alt="Image 4" className="staircase-image" />
+                            <div className="staircase-description">Transform images and videos with our vision systems.</div>
+                        </div>
+                        <div className="staircase-image-container">
+                            <div className="staircase-heading">Conversational AI</div>
+                            <img src={p5} alt="Image 5" className="staircase-image" />
+                            <div className="staircase-description">Engage customers with AI-driven conversational solutions.</div>
+                        </div>
+                        <div className="staircase-image-container">
+                            <div className="staircase-heading">Recommendation Engine</div>
+                            <img src={p6} alt="Image 6" className="staircase-image" />
+                            <div className="staircase-description">Personalize customer experiences with recommendation systems.</div>
+                        </div>
                     </div>
                 </div>
-                <div className="staircase-level">
-                    <div className="staircase-image-container">
-                        <div className="staircase-heading">Natural Language Processing (NLP)</div>
-                        <img src={A3} alt="Image 2" className="staircase-image" />
-                    </div>
-                    <div className="staircase-image-container">
-                        <div className="staircase-heading">Robotic Process Automation</div>
-                        <img src={p3} alt="Image 3" className="staircase-image" />
-                    </div>
-                </div>
-                <div className="staircase-level">
-                    <div className="staircase-image-container">
-                        <div className="staircase-heading">Computational Vision</div>
-                        <img src={p4} alt="Image 4" className="staircase-image" />
-                    </div>
-                    <div className="staircase-image-container">
-                        <div className="staircase-heading">Conversational AI</div>
-                        <img src={p5} alt="Image 5" className="staircase-image" />
-                    </div>
-                    <div className="staircase-image-container">
-                        <div className="staircase-heading">Recommendation Engine</div>
-                        <img src={p6} alt="Image 6" className="staircase-image" />
-                    </div>
-                </div>
-            </div>
             </div>
         </div>
     );
