@@ -1,8 +1,9 @@
-/*Testimonials*/
-/* Importing fonts from Google */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 /* Reseting */
+
 
 @keyframes background-color {
     0% {
@@ -22,28 +23,13 @@
     }
 }
 
-.testimonial-header {
-    background: rgb(2,0,25);
-    background: linear-gradient(90deg, rgba(2,0,25,1) 19%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
-    color: white;
-    height: auto;
-    border-radius: 5px;
-}
-
-.testimonial-description {
-    font-size: 18px;
-}
-
 .container {
-  height:auto;
-}
-
-.containerS {
     margin-top: 80px;
-  
+    height:auto;
+    width:100%;
 }
 
-    .containerS .col-lg-4 {
+    .container .col-lg-4 {
         display: flex;
         justify-content: center;
     }
@@ -54,6 +40,7 @@
     transform-style: preserve-3d;
     perspective: 500px;
     border: none;
+    opacity: 1 !important;
     background-color: inherit;
 }
 
@@ -65,14 +52,16 @@
         overflow: hidden;
         box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
         border-radius: 15px;
-        background: white;
+        background: rgba(255, 255, 255, 0.06);
         transform-style: preserve-3d;
         transition: 0.5s;
         backface-visibility: hidden;
         border-top: 1px solid #ddd;
         border-left: 1px solid #ddd;
-        color: black;
-    }
+        /* border-right: 1px solid #999;
+border-bottom: 1px solid #999; */
+    color: black;
+}
 
         .card .face.front-face,
         .card .face.back-face {
@@ -87,7 +76,7 @@
             .card .face.front-face .profile {
                 width: 150px;
                 height: 150px;
-                border-radius: 20%;
+                border-radius: 50%;
                 object-fit: cover;
                 color: black;
             }
@@ -98,7 +87,7 @@
 
             .card .face.front-face .designation {
                 font-size: 0.8rem;
-                color: black;
+                color: #ddd;
                 letter-spacing: 0.8px;
             }
 
