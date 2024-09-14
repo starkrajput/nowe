@@ -4,7 +4,7 @@ import './Testimonial.css';
 
 const Testimonial = () => {
     return (
-        <div>
+        <div style={{ height: 'auto', width: '100%' }} >
             {/* Testimonial Header */}
             <div className="containerS text-center mt-5 testimonial-header" style={{ marginTop: '30px', background: 'black', borderRadius: '8px', height: '90px', color: 'white' }}>
                 <h2>Client Testimonials</h2>
