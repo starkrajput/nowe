@@ -41,7 +41,7 @@ const Testimonial = () => {
                         <div className="card">
                             <div className="face front-face">
                                 <img
-                                    src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d"
+                                    src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
                                     alt="Client from USA"
                                     className="profile"
                                 />
@@ -63,7 +63,7 @@ const Testimonial = () => {
                         <div className="card">
                             <div className="face front-face">
                                 <img
-                                    src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+                                    src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d"
                                     alt="Client from UK"
                                     className="profile"
                                 />
