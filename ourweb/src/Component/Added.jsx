@@ -23,7 +23,7 @@ const Added = () => {
                                RSV Technologies empowers businesses by developing innovative software solutions that address over 85% of common industry challenges. Our expert teams create applications tailored to meet specific needs, driving efficiency and growth. </p>
                             <p>
                                 Despite being a young and dynamic company, RSV Technologies has already made significant strides in the industry. Our commitment to delivering exceptional solutions has led to successful partnerships with renowned clients across various sectors. From Fortune 500 companies to innovative startups, we've proven our ability to drive results.   </p>
-                            <button type="button" className="btn" style={{ width: '200px', height: '50px', color: 'white', marginLeft: '10px', background: 'rgb(2,0,25)', background: 'linear-gradient(90deg, rgba(2,0,25,1) 19%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%)' }}>
+                            <button type="button" className="btn" style={{ width: '200px', height: '50px', color: 'white', marginLeft: '10px',  background: 'linear-gradient(90deg, rgba(2,0,25,1) 19%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%)' }}>
                                 DISCOVER NOW
                             </button>
                         </div>
