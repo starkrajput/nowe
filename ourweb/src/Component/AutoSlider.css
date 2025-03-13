@@ -6,7 +6,7 @@
     position: relative;
     z-index: 1;
     color: white;
-    background: rgb(2, 0, 25);
+ 
     background: linear-gradient(90deg, rgba(2, 0, 25, 1) 19%, rgba(0, 0, 0, 1) 100%, rgba(0, 212, 255, 1) 100%);
 }
 .auto-slider {
